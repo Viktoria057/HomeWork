@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraition</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <div class="bg-img"></div>
+    <div class="bg-overlay"></div>
+
+    <header class="header">
+        <div class="container">
+            <ul class="navbar-list">
+                <li><a class="navbar-link" href="../index.html">Головна</a></li>
+                <li><a class="navbar-link" href="articles.html">Статті</a></li>
+                <li><a class="navbar-link" href="catalog.html">Каталог</a></li>
+                <li><a class="navbar-link" href="contacts.html">Контакти</a></li>
+                <li><a class="navbar-link" href="gallery.html">Галерея</a></li>
+                <li><a class="navbar-link" href="page.nav.html">Навігація</a></li>
+                <li><a class="navbar-link" href="registraition.html">Реєстрація</a></li>
+            </ul>
+        </div>
+    </header>
+
+<div class="content container">
+    <h1>Реєстрація</h1>
+
+    <form action="https://tests.fomenko.top/echo/index.php" method="get">
+        <fieldset>
+            <legend>Реєстрація</legend>
+
+            <div class="form-group">
+                <label for="family">Прізвище</label>
+                <input id="family" type="text" placeholder="Ім'я" name="family">
+            </div>
+
+            <div class="form-group">
+                <label for="name">Ім'я</label>
+                <input id="name" type="text" placeholder="Ім'я" name="name">
+            </div>
+
+            <div class="form-group">
+                <label for="file">Додати фотографію</label>
+                <input id="file" type="file" name="file">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Пароль</label>
+                <input id="password" type="password" placeholder="Пароль" name="password">
+            </div>
+
+            <div class="form-group">
+                <label for="url">адреса сайта</label>
+                <input id="url" type="url" name="url" value="https://mysite.name">
+            </div>
+
+            <div class="form-group-sm">
+                <label for="gender-male">Чоловіча</label>
+                <input id="gender-male" type="radio" name="gender" value="male">
+            </div>
+
+            <div class="form-group-sm">
+                <label for="gender-female">Жіноча</label>
+                <input id="gender-female" type="radio" name="gender" value="female">
+            </div>
+
+            <div class="form-group">
+                <label for="date">Дата народження</label>
+                <input id="date" type="date" name="date">
+            </div>
+
+            <div class="form-group">
+                <label for="txt-question">Про себе</label>
+                <textarea id="txt-question" cols="30" rows="5" placeholder="Про себе" name="txt-question"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Обрати кухню</legend>
+            <div class="form-group-sm">
+                <label for="checkbox1">Українська</label>
+                <input id="checkbox1" type="checkbox" name="Українська" value="1">
+            </div>
+
+            <div class="form-group-sm">
+                <label for="checkbox2">Грузинська</label>
+                <input id="checkbox2" type="checkbox" name="Грузинська" value="2">
+            </div>
+
+            <div class="form-group-sm">
+                <label for="checkbox3">Корейська</label>
+                <input id="checkbox3" type="checkbox" name="Корейська" value="3">
+            </div>
+
+            <div class="form-group-sm">
+                <label for="checkbox4">Індійська</label>
+                <input id="checkbox4" type="checkbox" name="Індійська" value="4">
+            </div>
+
+            <div class="form-group-sm">
+                <label for="checkbox5">Американська</label>
+                <input id="checkbox5" type="checkbox" name="Американська" value="5">
+            </div>
+
+            <div class="form-group-sm">
+                <label for="checkbox6">Італійська</label>
+                <input id="checkbox6" type="checkbox" name="Італійська" value="6">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Кнопки</legend>
+            <div class="form-group">
+                <button class="button" type="submit"><b>Відправити</b></button>
+                <button class="button" type="reset"><b>Очистити</b></button>
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+    <footer class="footer">
+        <p class="container">&copy; Victoria Sobolevska</p>
+    </footer>
+
+</body>
+
+</html>

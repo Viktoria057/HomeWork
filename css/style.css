@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    padding: 1em;
+    margin: 2em;
+    border-bottom: 0.4px solid #5C3A21;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-img {
+    position: fixed;
+    background-color: rgb(252, 157, 233);
+    z-index: -1;
+    top: 0;
+    background-image: url(../images/background-pink.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-overlay {
+    position: fixed;
+    background-color: rgba(125, 54, 107, 0.727);
+    z-index: -1;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.4;
+}
+
+.navbar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.navbar-link {
+    border: 2px solid #5C3A21;
+    padding: 1em;
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #5C3A21;
+    background-color: #F6B6C8;
+}
+
+.navbar-link:hover {
+    background-color: #e24c88;
+    color: #AEE5E5;
+    transform: scale(1.18);
+    transition: 0.9s;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #FADADD;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    color: aqua;
+}
+
+.content {
+    margin-top: 180px;
+    margin-bottom: 100px;
+    background-color: beige;
+    color: rgb(123, 74, 53);
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #FADADD;
+    color: #5C3A21;
+}
+
+.articles {
+    font-family: 'Pacifico', cursive;
+}
+
+.articles-link {
+    color: #3E3E3E;
+    border-bottom: 0.4px solid #5C3A21;
+}
+
+.articles-read {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    color: rgb(247, 138, 236);
+}
+
+.articles-read:hover {
+    color: rgb(67, 20, 255);
+}
+
+.comments {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    color: #8B7E74;
+}
+
+.comments:hover {
+    color: rgb(67, 20, 255);
+}
+
+.h1-articles {
+    text-align: center;
+}
+
+.p-articles::first-letter {
+    color: brown;
+    font-size: x-large;
+    font-weight: 700;
+    background-color: #E67A94;
+    border: 2px solid #D6457F;
+}
+
+.custom-list {
+    background-color: #D6F4F4;
+    list-style-image: url(https://img.icons8.com/dusk/30/cat-head--v1.png);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    border: 2px solid #D6F4F4;
+    padding: 2.5em 2.5em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    gap: 2em;
+}
+
+.sublist {
+    list-style-image: url(https://img.icons8.com/pin/25/cat-footprint.png);
+    font-size: 15px;
+    background-color: #F6B6C8;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    margin: 10px;
+    padding: 10px 10px 10px 37px;
+}
+
+.new::after {
+    content: "new";
+    background-color: orange;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.bg-img-gallery {
+    position: fixed;
+    background-color: rgb(252, 157, 233);
+    z-index: -1;
+    top: 0;
+    background-image: url(../images/background-pink.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-gallery {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.border-decorated {
+    border: 20px solid #D6F4F4;
+}
+
+.border-decorated:hover {
+    border-color: transparent;
+}
+
+.center {
+    text-align: center;
+}
+
+.return {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #e24c88;
+    border-bottom: 1px solid #e7bb9c;
+}
+
+.return:hover {
+    color: rgb(123, 74, 53);
+}
+
+.page {
+    padding: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: brown;
+}
+
+fieldset {
+    background-color: #D6F4F4;
+    border: 2px solid #D6F4F4;
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+input[type="file"] {
+    padding: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    padding: 10px 20px;
+    min-height: 75px;
+    max-height: 33vh;
+}
+
+.form-group:not(:first-of-type) {
+    margin: 15px 0 5px;
+}
+
+.form-group-sm {
+    margin: 10px 0 5px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 1em;
+}
+
+.button:hover{
+    background-color: #D6457F;
+    color: rgb(71, 227, 255);
+    border: 2px solid #5C3A21 ;
+}
